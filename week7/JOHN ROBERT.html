@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JOHN ROBERT</title>
+    <style>
+      /* CSS styles for SVG elements */
+      #circle {
+        fill: rgb(0, 255, 17);
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="100" height="100">
+      <circle id="circle" cx="50" cy="50" r="30" />
+    </svg>
+    <script>
+      // Javascript code to change the color of the circle on click
+      const circle = document.getElementById('circle');
+      circle.addEventListener('click', () => {
+        circle.style.fill = 'red';
+      });
+    </script>
+  </body>
+</html>

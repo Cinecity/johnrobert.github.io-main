@@ -1,0 +1,104 @@
+/* 
+this is a css comment
+shortcut for adding comment 
+
+*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(45, 11, 60);
+}
+h1 {
+    color: rgb(11, 137, 95);
+}
+p {
+    background-color: rgb(226, 166, 88);
+}
+/* selecting child element */
+h1, h2, h3, h4 {
+    text-decoration: underline;
+    color: coral;
+    text-shadow: rgb(236, 100, 244);
+}
+/* selecting child element */
+nav ul {
+    list-style: none;
+}
+/* selecting child element with multiple level */
+nav ul a {
+    color: rgb(7, 0, 0);
+    text-decoration: none;
+    background-color: azure;
+    /* horizantal vertical blur color */
+    box-shadow: 2px 2px 4px 2px;
+}
+/* selecting elements  with id value */
+#treatofweek {
+    background-color: rgb(122, 182, 221);
+}
+.blue-link {
+    background-color: darkolivegreen;
+    text-decoration: none;
+}
+.large-text {
+    font-size: 20px;
+}
+.white-text {
+    color: aliceblue;
+}    
+/* 
+combinators
+direct child selector - will select child of parent */
+article>p   {
+    font-size: 24px;
+}
+/* adjacent sibling selector - selects the elements */
+
+h3+ul {
+    border: 1px solid color
+}
+h3~p {
+    text-transform: uppercase;
+}
+/* attribute selection */================
+[href="#treatofweak"]
+
+/* pseudo classes */
+nav ul a,
+nav ul a:link,
+nav ul a:visted {
+    background-color: azure;
+    /* horizantal vertical blur color */
+    box-shadow: 2px 2px 4px 2px;
+}
+nav ul .current,
+nav ul align-self:hover,
+nav ul a:focus {
+    text-decoration: underline;
+}
+nav ul .active {
+    box-shadow: 0 0 4px;
+}
+
+/* position selectors */
+/* first child and last child */
+aside ul li:first-child {
+    font font-weight: bold;
+}
+section ol li:last-child {
+    font-weight: bold;
+}
+
+/* css specificity
+formula:in-line style, ID, class, tagname (0,0,0,0) */
+footer {
+    background-color: darkmagenta;
+}
+body footer {
+    background-color: aquamarine;
+}
+.site-footer {
+    background-color: aliceblue;
+}
+article h2 {
+    text-transform: uppercase;
+}
