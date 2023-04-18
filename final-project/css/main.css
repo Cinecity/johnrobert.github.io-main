@@ -134,6 +134,15 @@ nav ul li a:visited
     background-color: #FFE6AC;
     padding: 15px;
   }
+.image-container{
+    
+    background-position: 50% 65%;
+    background-size: cover;
+    margin: 0;
+    min-height: 380px;
+    width: 100%;
+    background-image: url(../images/main-banner.jpg);
+}
   .about_us_Col2 h1, 
   .our-services-sec1 h1, 
   .team-member1 h1,
